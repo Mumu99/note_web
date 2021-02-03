@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>总结 Webpack | note_web</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <meta name="description" content="熊木木出版">
+    
+    <link rel="preload" href="/note_web/assets/css/0.styles.7cc68753.css" as="style"><link rel="preload" href="/note_web/assets/js/app.0a8a88e2.js" as="script"><link rel="preload" href="/note_web/assets/js/2.a8152735.js" as="script"><link rel="preload" href="/note_web/assets/js/24.7fe34f57.js" as="script"><link rel="prefetch" href="/note_web/assets/js/10.0b7deae7.js"><link rel="prefetch" href="/note_web/assets/js/11.b28cb736.js"><link rel="prefetch" href="/note_web/assets/js/12.1e24d268.js"><link rel="prefetch" href="/note_web/assets/js/13.6a7dc0b8.js"><link rel="prefetch" href="/note_web/assets/js/14.5ebcae47.js"><link rel="prefetch" href="/note_web/assets/js/15.361aa7de.js"><link rel="prefetch" href="/note_web/assets/js/16.d753cdbb.js"><link rel="prefetch" href="/note_web/assets/js/17.aad2eb09.js"><link rel="prefetch" href="/note_web/assets/js/18.fb79d12c.js"><link rel="prefetch" href="/note_web/assets/js/19.b0404afa.js"><link rel="prefetch" href="/note_web/assets/js/20.367a78b7.js"><link rel="prefetch" href="/note_web/assets/js/21.2c0d84e8.js"><link rel="prefetch" href="/note_web/assets/js/22.58f449fc.js"><link rel="prefetch" href="/note_web/assets/js/23.fe2549f8.js"><link rel="prefetch" href="/note_web/assets/js/25.c8dbb4c7.js"><link rel="prefetch" href="/note_web/assets/js/26.49c63d2e.js"><link rel="prefetch" href="/note_web/assets/js/27.65899db2.js"><link rel="prefetch" href="/note_web/assets/js/28.9363e098.js"><link rel="prefetch" href="/note_web/assets/js/29.aebf9855.js"><link rel="prefetch" href="/note_web/assets/js/3.03f151d4.js"><link rel="prefetch" href="/note_web/assets/js/30.5dab8d40.js"><link rel="prefetch" href="/note_web/assets/js/4.d5e2826f.js"><link rel="prefetch" href="/note_web/assets/js/5.9499be40.js"><link rel="prefetch" href="/note_web/assets/js/6.153d8ea2.js"><link rel="prefetch" href="/note_web/assets/js/7.2aac5bdb.js"><link rel="prefetch" href="/note_web/assets/js/8.84af4e42.js"><link rel="prefetch" href="/note_web/assets/js/9.747e23d2.js">
+    <link rel="stylesheet" href="/note_web/assets/css/0.styles.7cc68753.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/note_web/" class="home-link router-link-active"><img src="/note_web/images/logo.png" alt="note_web" class="logo"> <span class="site-name can-hide">note_web</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/note_web/chapter1/html.html" class="nav-link">
+  H5
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JS" class="dropdown-title"><span class="title">JS</span> <span class="arrow down"></span></button> <button type="button" aria-label="JS" class="mobile-dropdown-title"><span class="title">JS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note_web/chapter2/初级Js.html" class="nav-link">
+  普通
+</a></li><li class="dropdown-item"><!----> <a href="/note_web/chapter2/高级Js.html" class="nav-link">
+  高级
+</a></li></ul></div></div><div class="nav-item"><a href="/note_web/chapter3/移动端相关.html" class="nav-link">
+  移动端
+</a></div><div class="nav-item"><a href="/note_web/chapter4/基础使用.html" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/note_web/chapter6/常见问题.html" class="nav-link">
+  常见问题
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/note_web/chapter1/html.html" class="nav-link">
+  H5
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="JS" class="dropdown-title"><span class="title">JS</span> <span class="arrow down"></span></button> <button type="button" aria-label="JS" class="mobile-dropdown-title"><span class="title">JS</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/note_web/chapter2/初级Js.html" class="nav-link">
+  普通
+</a></li><li class="dropdown-item"><!----> <a href="/note_web/chapter2/高级Js.html" class="nav-link">
+  高级
+</a></li></ul></div></div><div class="nav-item"><a href="/note_web/chapter3/移动端相关.html" class="nav-link">
+  移动端
+</a></div><div class="nav-item"><a href="/note_web/chapter4/基础使用.html" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/note_web/chapter6/常见问题.html" class="nav-link">
+  常见问题
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/note_web/笔记指南.html" class="sidebar-link">笔记指南</a></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>一.H5</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note_web/chapter1/h5.html" class="sidebar-link">H5</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>二.JS</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note_web/chapter2/初级Js.html" class="sidebar-link">初级 Js</a></li><li><a href="/note_web/chapter2/高级Js.html" class="sidebar-link">高级 Js</a></li><li><a href="/note_web/chapter2/自定义call-apply-bind方法.html" class="sidebar-link">自定义 call 和 apply 和 bind 方法</a></li><li><a href="/note_web/chapter2/ECMAScript.html" class="sidebar-link">ECMAScript</a></li><li><a href="/note_web/chapter2/node.html" class="sidebar-link">NodeJS</a></li><li><a href="/note_web/chapter2/git.html" class="sidebar-link">Git</a></li><li><a href="/note_web/chapter2/ajax.html" class="sidebar-link">AJAX</a></li><li><a href="/note_web/chapter2/git常用指令.html" class="sidebar-link">git 常用指令</a></li><li><a href="/note_web/chapter2/模块化.html" class="sidebar-link">模块化</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>三.移动端</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note_web/chapter3/移动端相关.html" class="sidebar-link">移动端相关</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>四.Vue</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note_web/chapter4/基础使用.html" class="sidebar-link">基础使用</a></li><li><a href="/note_web/chapter4/项目中遇到的问题.html" class="sidebar-link">项目中遇到的问题</a></li><li><a href="/note_web/chapter4/vue面试.html" class="sidebar-link">vue 面试</a></li><li><a href="/note_web/chapter4/源码.html" class="sidebar-link">源码解析</a></li><li><a href="/note_web/chapter4/vue扩展.html" class="sidebar-link">Vue 扩展</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>五.webpack</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note_web/chapter5/构建工具.html" class="sidebar-link">构建工具</a></li><li><a href="/note_web/chapter5/webpack总结.html" class="active sidebar-link">总结 Webpack</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>六.常见问题</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note_web/chapter6/常见问题.html" class="sidebar-link">常见问题</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>七.React</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note_web/chapter7/react面试.html" class="sidebar-link">react 面试</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>八.小程序</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note_web/chapter8/小程序面试.html" class="sidebar-link">小程序面试</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>九.面试总汇</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/note_web/chapter9/面试总汇.html" class="sidebar-link">面试总汇</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="总结-webpack"><a href="#总结-webpack" class="header-anchor">#</a> 总结 Webpack</h1> <h3 id="webpack-基本概念"><a href="#webpack-基本概念" class="header-anchor">#</a> Webpack 基本概念</h3> <ol><li>entry 入口</li></ol> <ul><li>以某个文件为入口开始打包</li> <li>分类
+<ul><li>单入口 String
+<ul><li>只会输出一个文件</li> <li>单页面应用（SPA）</li></ul></li> <li>多入口 Array / Object
+<ul><li>Array 只会输出一个文件</li> <li>Object 会输出多个文件
+<ul><li>多页面应用</li></ul></li></ul></li></ul></li></ul> <ol start="2"><li>output 输出</li></ol> <ul><li>打包后资源输出到哪里去</li></ul> <ol start="3"><li>loader 加载器</li></ol> <ul><li>webpack 本身只能识别 json、js 模块，其他模块一旦加载就会报错</li> <li>需要借助 loader 帮助 webpack 识别它识别不了的模块</li></ul> <ol start="4"><li>plugins 插件</li></ol> <ul><li>loader 功能有限，要想做功能更加强大的工作交给插件</li></ul> <ol start="5"><li>mode</li></ol> <ul><li>模式：开发环境（development）和生产环境（production）</li></ul> <h3 id="webpack-基本配置"><a href="#webpack-基本配置" class="header-anchor">#</a> Webpack 基本配置</h3> <ol><li>处理 JS 文件
+eslint-loader
+在 package.json 中配置 eslintConfig 来指示 eslint-loader 到底要干什么事
+enfore: 'pre' 优先执行
+babel-loader
+在 package.json 中配置 babel 来指示 babel-loader 到底要干什么事</li> <li>处理 Vue 文件
+vue-loader</li> <li>处理 JSX 文件
+babel-loader
+presets: ['@babel/preset-react']</li> <li>处理 CSS 文件
+开发环境：创建 style 标签插入样式
+style-loader
+css-loader
+postcss-loader
+less-loader / sass-loader / stylus-loader
+生产环境：提取单独 css 文件，将来通过 link 引入
+MiniCssExtractPlugin.loader（还需要配置插件 new MiniCssExtractPlugin）
+css-loader
+postcss-loader
+less-loader / sass-loader / stylus-loader</li> <li>处理 HTML 文件
+new HtmlWebpackPlugin({ template: './public/index.html' })</li> <li>处理图片文件
+url-loader
+limit: 10000 小于 10kb 一下的图片会被 base64 处理</li> <li>处理其他类型文件（如字体图标、音视频等）
+file-loader 原封不动输出</li></ol> <h3 id="webpack-优化手段"><a href="#webpack-优化手段" class="header-anchor">#</a> Webpack 优化手段</h3> <ul><li>优化打包构建速度</li></ul> <ol><li>HMR 热模块替换
+为什么要用？
+默认情况下，一旦修改了代码，全部代码重新编译刷新，速度慢（全体刷新）
+有什么作用？
+只更新修改的模块，其他模块不变（局部更新）<br>
+怎么使用？
+devServer: { hot: true }<br>
+new webpack.HotModuleReplacementPlugin()<br>
+注意：默认情况下只有样式文件有 HMR 功能（style-loader），JS 是没有的
+开启 JS 的 HMR 功能：
+<ol><li>手写 JS 代码 --&gt; module.hot.accpet('模块路径', () =&gt; {})</li> <li>在 Vue 使用 --&gt; vue-loader</li> <li>在 React 使用 --&gt; react-hot-loader</li></ol></li> <li>cache 缓存
+eslint 和 babel 两个任务处理 JS 文件，时间一般会比较长，为了让其重新构建速度更快
+可以使用缓存。
+eslint --&gt; cache: true
+babel --&gt; cacheDirectory: true</li></ol> <p>cache-loader 放置在要缓存 loader 的后面
+注意：一般只针对耗时长的任务：eslint-loader/babel-loader/vue-loader</p> <ol start="3"><li>oneOf
+作用：让模块只被一个 loader 处理，其他的就不看了~
+能够提升打包速度~
+注意：eslint-loader（外） / babel-loader（内）</li> <li>多进程打包
+过去: happyPack
+现在: thread-loader
+用法和 cache-loader 差不多，放在要使用 loader 后面执行
+作用：开启多进程处理前面的任务，提升打包速度
+注意：每个进程开启和通信都有开销，一般只针对耗时长的任务：babel-loader</li></ol> <ul><li>优化打包代码体积和性能</li></ul> <ol><li>兼容性处理
+JS
+<ol><li>babel-loader presets: ['@babel/preset-env'] 问题就是只能编译/转换简单语法</li> <li>@babel/polyfill 做复杂语法兼容，问题是体积太大了</li> <li>core-js 在@babel/preset-env 基础上，增加了 useBuiltIns: 'usage'来实现按需加载
+CSS<br>
+postcss-loader
+在 package.json 中指定 browserslist 来指示 postcss-loader 兼容性做到什么程度</li></ol></li> <li>tree shaking 树摇
+去除没有使用的 JS 代码
+注意：
+<ol><li>必须使用 ES6 模块化（需要禁止@babel/preset-env 转换 ES6 模块化语法 modules: false）</li> <li>开启 webpack 的生产模式（内部启用 TerserPlugin，用来压缩 JS 代码的插件，tree shaking 功能就是这个插件完成的）</li> <li>在 package.json 配置 sideEffects 来指定哪些文件需要进行 tree shaking</li></ol></li> <li>code split 代码分割 / lazy loading 懒加载
+作用：1. 抽取公共代码 2. 拆分多个文件，减少单个文件体积（避免单次请求时间过长）
+配置：
+<ol><li>多入口 + optimization
+将 node_modules 抽取成单独模块
+将多入口的公共模块也抽取成单独模块</li> <li>单入口 + optimization + import
+将 node_modules 抽取成单独模块
+动态导入语法 import 就能将某些文件抽取成单独模块
+<ol><li>原生 JS</li> <li>React，可以使用 Suspence + lazy 来实现路由组件的动态导入</li> <li>Vue，() =&gt; import('./Foo.vue')
+React 和 Vue 的目的都是为了将路由组件抽取成单独模块，单独加载（懒加载）</li></ol></li></ol></li> <li>preload 和 prefetch 预加载
+作用：让资源提前加载
+区别：
+preload 让当前页面的要使用资源加载（延后加载）
+prefetch 让后面要使用资源提前加载（当前不需要使用）
+使用：
+import(/_ webpackPrefetch: true _/'./xxx')
+问题：兼容性较差</li> <li>cache 缓存</li> <li>hash</li></ol> <div class="language- extra-class"><pre class="language-text"><code>webpack每次构建都会生成一个新的且唯一的hash
+问题：只要webpack重新构建，所有文件的hash都会发生变化，缓存就会失效
+</code></pre></div><ol start="2"><li>chunkhash</li></ol> <div class="language- extra-class"><pre class="language-text"><code>打包属于同一个chunk，就共享同一个hash
+问题：样式文件被css-loader打包js文件中，导致样式文件和js文件属于同一个chunk，共享同一个hash
+一旦样式文件发生变化，js文件也会变
+</code></pre></div><ol start="3"><li>contenthash</li></ol> <div class="language- extra-class"><pre class="language-text"><code>根据文件的内容来成hash，所以只要文件内容不一样，hash就不一样
+问题：比如A模块有一个依赖，是B模块，那么A模块内部就会保存B模块hash值，
+  一旦B模块发生变化，B模块的hash值就会变，导致A模块内部保存B模块hash值也发生改变
+  此时A模块文件内容发生变化，它的hash值也会变
+解决：runtimechunk: true 将A模块保存的B模块hash值存到runtime文件中，这样A模块内部就没有B模块的hash值了，就不会因为B模块的修改而修改
+</code></pre></div><p>最终：就能让资源进行持久缓存</p> <ol start="6"><li>PWA 渐进式网络应用程序
+作用：让我们开发的 App，即使离线也可以访问
+内部使用 service worker + cache 实现的
+具体实现我们借助插件 workbox-webpack-plugin</li></ol> <h3 id="webpack-原理分析"><a href="#webpack-原理分析" class="header-anchor">#</a> Webpack 原理分析</h3></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/note_web/chapter5/构建工具.html" class="prev">
+        构建工具
+      </a></span> <span class="next"><a href="/note_web/chapter6/常见问题.html">
+        常见问题
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/note_web/assets/js/app.0a8a88e2.js" defer></script><script src="/note_web/assets/js/2.a8152735.js" defer></script><script src="/note_web/assets/js/24.7fe34f57.js" defer></script>
+  </body>
+</html>
